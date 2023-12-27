@@ -5,7 +5,6 @@ function Card({ item }) {
 
     return (
         <div style={{
-            height: '900px',
             width: '30%',
             margin: '1% 0',
             height: 'auto'
@@ -86,7 +85,6 @@ function CardVertical({ item }) {
 
     return (
         <div style={{
-            height: '20%',
             width: '70%',
             height: 'auto',
             margin: '1%'
