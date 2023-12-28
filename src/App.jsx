@@ -1,11 +1,21 @@
 import React from 'react';
 
 import { Wrapper } from './Wrapper';
+import logoLarge  from './logoLarge.jpg';
 
 import './style.css';
 
 
 export default function App() {
+
+ /*   const [homeImg, setHomeImg] = useState({})
+
+    useEffect(() => {
+        async function imgTest() {
+            setHomeImg(logoLarge);
+        }
+        imgTest()
+    }, []) */
 
     return (
         <>
@@ -21,8 +31,9 @@ export default function App() {
                 </div>
             </header>
             <div className='main'>
-                <div className='title'>
+                <div className='title m-2' style={{border: '1px solid #fff'}}>
                     <h1>Hello world</h1>
+                    <img style={{height: '50%', margin: '2%'}} src={logoLarge} />
                 </div>
                 <Wrapper />
             </div>
